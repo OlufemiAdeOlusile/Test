@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="SuiteOne" parallel="tests" thread-count="3">
+
+    <test name="Selenium_Website_Test" parallel="classes" thread-count="2">
+
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="hotels.com.assesment.prestigeScripts.seleniumWebsiteTest.MyFirstTest"/>
+            <class name="hotels.com.assesment.prestigeScripts.seleniumWebsiteTest.MySecondTest"/>
+        </classes>
+    </test>
+
+    <test name="ACME_Country_Api">
+        <parameter name="browser" value="api"/>
+        <classes>
+            <class name="hotels.com.assesment.acmeCountryCucumberApiTest.CountryApiRunnerTest"/>
+        </classes>
+    </test>
+
+    <test name="ACME_Country_DataProvider">
+        <parameter name="browser" value="api"/>
+        <classes>
+            <class name="hotels.com.assesment.acmeCountryDataProviderApiTest.CountryGetAllTest"/>
+        </classes>
+    </test>
+
+</suite>

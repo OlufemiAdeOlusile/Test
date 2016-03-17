@@ -1,0 +1,50 @@
+<h2>Reporter output</h2><table><tr><td><div "featureFile">Feature File: src&#x2F;resources&#x2F;acmeFeatures&#x2F;CountryApi.feature</div></td></tr>
+<tr><td><div "feature">Feature: Get API and perform assertions</div></td></tr>
+<tr><td><div "scenarioOutline">Scenario Outline: Test all resource</div></td></tr>
+<tr><td><div "scenario">Scenario Outline: Test all resource</div></td></tr>
+<tr><td><div "result">When  the user requests resource &quot;&lt;resource&gt;&quot; (passed : 3s)</div></td></tr>
+<tr><td><div "result">Then  I validate name assertions &quot;&lt;resource&gt;&quot; &quot;&lt;name1&gt;&quot; &quot;&lt;name2&gt;&quot; (passed : 1s)</div></td></tr>
+<tr><td><div "result">And  I validate alphacode assertions&quot;&lt;resource&gt;&quot; &quot;&lt;alpha2_code1&gt;&quot; &quot;&lt;alpha3_code2&gt;&quot; (passed : 1s)</div></td></tr>
+<tr><td><div "result">And  I validate message assertions &quot;&lt;resource&gt;&quot; &quot;&lt;message1&gt;&quot; &quot;&lt;message2&gt;&quot; (passed : 1s)</div></td></tr>
+<tr><td><div "scenarioOutline">Scenario Outline: Positive test IsoCode resource</div></td></tr>
+<tr><td><div "scenario">Scenario Outline: Positive test IsoCode resource</div></td></tr>
+<tr><td><div "result">When  the user requests resource &quot;&#x2F;country&#x2F;get&#x2F;all&quot; (passed : 1s)</div></td></tr>
+<tr><td><div "result">Then  I validate name assertions &quot;&#x2F;country&#x2F;get&#x2F;all&quot; &quot;Afghanistan&quot; &quot;Nepal&quot; (passed : 1s)</div></td></tr>
+<tr><td><div "result">And  I validate alphacode assertions&quot;&#x2F;country&#x2F;get&#x2F;all&quot; &quot;NL&quot; &quot;ZWE&quot; (passed : 1s)</div></td></tr>
+<tr><td><div "result">And  I validate message assertions &quot;&#x2F;country&#x2F;get&#x2F;all&quot; &quot;More webservices are available at http:&#x2F;&#x2F;www.groupkt.com&#x2F;post&#x2F;f2129b88&#x2F;services.htm&quot; &quot;Total [249] records found.&quot; (passed : 1s)</div></td></tr>
+<tr><td><div "scenario">Scenario Outline: Positive test IsoCode resource</div></td></tr>
+<tr><td><div "result">When  the user requests resource &quot;&lt;resource&gt;&quot; (passed : 1s)</div></td></tr>
+<tr><td>Inputted: Selenium WebDriver</td></tr>
+<tr><td><div "result">Then  I validate ISO name assertions &quot;&lt;resource&gt;&quot; &quot;&lt;name1&gt;&quot; (passed : 1s)</div></td></tr>
+<tr><td><div "result">And  I validate ISO alphacode assertions &quot;&lt;resource&gt;&quot; &quot;&lt;alpha2_code1&gt;&quot; &quot;&lt;alpha3_code2&gt;&quot; (passed : 1s)</div></td></tr>
+<tr><td><div "result">And  I validate ISO message assertions &quot;&lt;resource&gt;&quot; &quot;&lt;message1&gt;&quot; (passed : 1s)</div></td></tr>
+<tr><td><div "scenarioOutline">Scenario Outline: Search http search with text method</div></td></tr>
+<tr><td><div "scenario">Scenario Outline: Search http search with text method</div></td></tr>
+<tr><td><div "result">When  the user requests resource &quot;&#x2F;country&#x2F;get&#x2F;iso2code&#x2F;IN&quot; (passed : 1s)</div></td></tr>
+<tr><td><div "result">Then  I validate ISO name assertions &quot;&#x2F;country&#x2F;get&#x2F;iso2code&#x2F;IN&quot; &quot;India&quot; (passed : 1s)</div></td></tr>
+<tr><td><div "result">And  I validate ISO alphacode assertions &quot;&#x2F;country&#x2F;get&#x2F;iso2code&#x2F;IN&quot; &quot;IN&quot; &quot;IND&quot; (passed : 1s)</div></td></tr>
+<tr><td><div "result">And  I validate ISO message assertions &quot;&#x2F;country&#x2F;get&#x2F;iso2code&#x2F;IN&quot; &quot;Country found matching code [IN].&quot; (passed : 1s)</div></td></tr>
+<tr><td><div "scenario">Scenario Outline: Search http search with text method</div></td></tr>
+<tr><td><div "result">When  the user requests resource &quot;&#x2F;country&#x2F;get&#x2F;iso3code&#x2F;IND&quot; (passed : 1s)</div></td></tr>
+<tr><td>Second Test Passed</td></tr>
+<tr><td><div "result">Then  I validate ISO name assertions &quot;&#x2F;country&#x2F;get&#x2F;iso3code&#x2F;IND&quot; &quot;India&quot; (passed : 1s)</div></td></tr>
+<tr><td><div "result">And  I validate ISO alphacode assertions &quot;&#x2F;country&#x2F;get&#x2F;iso3code&#x2F;IND&quot; &quot;IN&quot; &quot;IND&quot; (passed : 1s)</div></td></tr>
+<tr><td>Total time 29264 in seconds</td></tr>
+<tr><td><div "result">And  I validate ISO message assertions &quot;&#x2F;country&#x2F;get&#x2F;iso3code&#x2F;IND&quot; &quot;Country found matching code [IND].&quot; (passed : 1s)</div></td></tr>
+<tr><td><div "scenarioOutline">Scenario Outline: Negative test For IsoCode and Search resource for error response</div></td></tr>
+<tr><td><div "scenario">Scenario Outline: Negative test For IsoCode and Search resource for error response</div></td></tr>
+<tr><td><div "result">When  the user requests resource &quot;&lt;resource&gt;&quot; (passed : 1s)</div></td></tr>
+<tr><td><div "result">Then  I validate name assertions &quot;&lt;resource&gt;&quot; &quot;&lt;name1&gt;&quot; &quot;&lt;name2&gt;&quot; (passed : 1s)</div></td></tr>
+<tr><td><div "scenario">Scenario Outline: Negative test For IsoCode and Search resource for error response</div></td></tr>
+<tr><td>Inputted: Selenium WebDriver</td></tr>
+<tr><td><div "result">And  I validate alphacode assertions&quot;&lt;resource&gt;&quot; &quot;&lt;alpha2_code1&gt;&quot; &quot;&lt;alpha3_code2&gt;&quot; (passed : 1s)</div></td></tr>
+<tr><td><div "result">And  I validate ISO message assertions &quot;&lt;resource&gt;&quot; &quot;&lt;message1&gt;&quot; (passed : 1s)</div></td></tr>
+<tr><td><div "scenario">Scenario Outline: Negative test For IsoCode and Search resource for error response</div></td></tr>
+<tr><td><div "result">When  the user requests resource &quot;&#x2F;country&#x2F;search?text=un&quot; (passed : 1s)</div></td></tr>
+<tr><td><div "result">Then  I validate name assertions &quot;&#x2F;country&#x2F;search?text=un&quot; &quot;Brunei Darussalam&quot; &quot;United States of America&quot; (passed : 1s)</div></td></tr>
+<tr><td><div "scenario">Scenario Outline: Negative test For IsoCode and Search resource for error response</div></td></tr>
+<tr><td><div "result">And  I validate alphacode assertions&quot;&#x2F;country&#x2F;search?text=un&quot; &quot;WF&quot; &quot;REU&quot; (passed : 1s)</div></td></tr>
+<tr><td>First Test Passed</td></tr>
+<tr><td><div "result">And  I validate ISO message assertions &quot;&#x2F;country&#x2F;search?text=un&quot; &quot;Total [12] records found.&quot; (passed : 1s)</div></td></tr>
+<tr><td>Total time 40752 in seconds</td></tr>
+</table>

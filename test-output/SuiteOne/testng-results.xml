@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="7" passed="7">
+  <reporter-output>
+    <line>
+      <![CDATA[<div "featureFile">Feature File: src&#x2F;resources&#x2F;acmeFeatures&#x2F;CountryApi.feature</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "feature">Feature: Get API and perform assertions</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenarioOutline">Scenario Outline: Test all resource</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario Outline: Test all resource</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">When  the user requests resource &quot;&lt;resource&gt;&quot; (passed : 3s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  I validate name assertions &quot;&lt;resource&gt;&quot; &quot;&lt;name1&gt;&quot; &quot;&lt;name2&gt;&quot; (passed : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  I validate alphacode assertions&quot;&lt;resource&gt;&quot; &quot;&lt;alpha2_code1&gt;&quot; &quot;&lt;alpha3_code2&gt;&quot; (passed : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  I validate message assertions &quot;&lt;resource&gt;&quot; &quot;&lt;message1&gt;&quot; &quot;&lt;message2&gt;&quot; (passed : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenarioOutline">Scenario Outline: Positive test IsoCode resource</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario Outline: Positive test IsoCode resource</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">When  the user requests resource &quot;&#x2F;country&#x2F;get&#x2F;all&quot; (passed : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  I validate name assertions &quot;&#x2F;country&#x2F;get&#x2F;all&quot; &quot;Afghanistan&quot; &quot;Nepal&quot; (passed : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  I validate alphacode assertions&quot;&#x2F;country&#x2F;get&#x2F;all&quot; &quot;NL&quot; &quot;ZWE&quot; (passed : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  I validate message assertions &quot;&#x2F;country&#x2F;get&#x2F;all&quot; &quot;More webservices are available at http:&#x2F;&#x2F;www.groupkt.com&#x2F;post&#x2F;f2129b88&#x2F;services.htm&quot; &quot;Total [249] records found.&quot; (passed : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario Outline: Positive test IsoCode resource</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">When  the user requests resource &quot;&lt;resource&gt;&quot; (passed : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[Inputted: Selenium WebDriver]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  I validate ISO name assertions &quot;&lt;resource&gt;&quot; &quot;&lt;name1&gt;&quot; (passed : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  I validate ISO alphacode assertions &quot;&lt;resource&gt;&quot; &quot;&lt;alpha2_code1&gt;&quot; &quot;&lt;alpha3_code2&gt;&quot; (passed : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  I validate ISO message assertions &quot;&lt;resource&gt;&quot; &quot;&lt;message1&gt;&quot; (passed : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenarioOutline">Scenario Outline: Search http search with text method</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario Outline: Search http search with text method</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">When  the user requests resource &quot;&#x2F;country&#x2F;get&#x2F;iso2code&#x2F;IN&quot; (passed : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  I validate ISO name assertions &quot;&#x2F;country&#x2F;get&#x2F;iso2code&#x2F;IN&quot; &quot;India&quot; (passed : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  I validate ISO alphacode assertions &quot;&#x2F;country&#x2F;get&#x2F;iso2code&#x2F;IN&quot; &quot;IN&quot; &quot;IND&quot; (passed : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  I validate ISO message assertions &quot;&#x2F;country&#x2F;get&#x2F;iso2code&#x2F;IN&quot; &quot;Country found matching code [IN].&quot; (passed : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario Outline: Search http search with text method</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">When  the user requests resource &quot;&#x2F;country&#x2F;get&#x2F;iso3code&#x2F;IND&quot; (passed : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[Second Test Passed]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  I validate ISO name assertions &quot;&#x2F;country&#x2F;get&#x2F;iso3code&#x2F;IND&quot; &quot;India&quot; (passed : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  I validate ISO alphacode assertions &quot;&#x2F;country&#x2F;get&#x2F;iso3code&#x2F;IND&quot; &quot;IN&quot; &quot;IND&quot; (passed : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[Total time 29264 in seconds]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  I validate ISO message assertions &quot;&#x2F;country&#x2F;get&#x2F;iso3code&#x2F;IND&quot; &quot;Country found matching code [IND].&quot; (passed : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenarioOutline">Scenario Outline: Negative test For IsoCode and Search resource for error response</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario Outline: Negative test For IsoCode and Search resource for error response</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">When  the user requests resource &quot;&lt;resource&gt;&quot; (passed : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  I validate name assertions &quot;&lt;resource&gt;&quot; &quot;&lt;name1&gt;&quot; &quot;&lt;name2&gt;&quot; (passed : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario Outline: Negative test For IsoCode and Search resource for error response</div>]]>
+    </line>
+    <line>
+      <![CDATA[Inputted: Selenium WebDriver]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  I validate alphacode assertions&quot;&lt;resource&gt;&quot; &quot;&lt;alpha2_code1&gt;&quot; &quot;&lt;alpha3_code2&gt;&quot; (passed : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  I validate ISO message assertions &quot;&lt;resource&gt;&quot; &quot;&lt;message1&gt;&quot; (passed : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario Outline: Negative test For IsoCode and Search resource for error response</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">When  the user requests resource &quot;&#x2F;country&#x2F;search?text=un&quot; (passed : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  I validate name assertions &quot;&#x2F;country&#x2F;search?text=un&quot; &quot;Brunei Darussalam&quot; &quot;United States of America&quot; (passed : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario Outline: Negative test For IsoCode and Search resource for error response</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  I validate alphacode assertions&quot;&#x2F;country&#x2F;search?text=un&quot; &quot;WF&quot; &quot;REU&quot; (passed : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[First Test Passed]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  I validate ISO message assertions &quot;&#x2F;country&#x2F;search?text=un&quot; &quot;Total [12] records found.&quot; (passed : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[Total time 40752 in seconds]]>
+    </line>
+  </reporter-output>
+  <suite name="SuiteOne" duration-ms="40812" started-at="2016-03-08T20:58:26Z" finished-at="2016-03-08T20:59:07Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.run_cukes()[pri:0, instance:hotels.com.assesment.acmeCountryCucumberApiTest.CountryApiRunnerTest@ae45eb6]" name="run_cukes" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Hotel_Expedia_Country_DataProvider" duration-ms="8332" started-at="2016-03-08T20:58:26Z" finished-at="2016-03-08T20:58:34Z">
+      <class name="hotels.com.assesment.acmeCountryDataProviderApiTest.CountryGetAllTest">
+        <test-method status="PASS" signature="assertAlphaCodeInAllCountry(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:hotels.com.assesment.acmeCountryDataProviderApiTest.CountryGetAllTest@42d80b78]" name="assertAlphaCodeInAllCountry" duration-ms="7260" started-at="2016-03-08T20:58:26Z" data-provider="alphacodes" finished-at="2016-03-08T20:58:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[/country/get/all]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[IQ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[IMN]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertAlphaCodeInAllCountry -->
+        <test-method status="PASS" signature="assertAlphaCodeInAllCountry(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:hotels.com.assesment.acmeCountryDataProviderApiTest.CountryGetAllTest@42d80b78]" name="assertAlphaCodeInAllCountry" duration-ms="390" started-at="2016-03-08T20:58:33Z" data-provider="alphacodes" finished-at="2016-03-08T20:58:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[/country/get/all]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[JP]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[KEN]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertAlphaCodeInAllCountry -->
+        <test-method status="PASS" signature="assertCountryNamesInAllCountry(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:hotels.com.assesment.acmeCountryDataProviderApiTest.CountryGetAllTest@42d80b78]" name="assertCountryNamesInAllCountry" duration-ms="321" started-at="2016-03-08T20:58:34Z" data-provider="names" finished-at="2016-03-08T20:58:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[/country/get/all]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Afghanistan]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Anguilla]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertCountryNamesInAllCountry -->
+        <test-method status="PASS" signature="assertCountryNamesInAllCountry(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:hotels.com.assesment.acmeCountryDataProviderApiTest.CountryGetAllTest@42d80b78]" name="assertCountryNamesInAllCountry" duration-ms="289" started-at="2016-03-08T20:58:34Z" data-provider="names" finished-at="2016-03-08T20:58:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[/country/get/all]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[China]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Jamaica]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertCountryNamesInAllCountry -->
+      </class> <!-- hotelsApp.com.assesment.acmeCountryDataProviderApiTest.CountryGetAllTest -->
+    </test> <!-- Hotel_Expedia_Country_DataProvider -->
+    <test name="Hotel_Expedia_Country_Api" duration-ms="40576" started-at="2016-03-08T20:58:26Z" finished-at="2016-03-08T20:59:06Z">
+      <class name="hotels.com.assesment.acmeCountryCucumberApiTest.CountryApiRunnerTest">
+        <test-method status="PASS" signature="run_cukes()[pri:0, instance:hotels.com.assesment.acmeCountryCucumberApiTest.CountryApiRunnerTest@ae45eb6]" name="run_cukes" duration-ms="40552" started-at="2016-03-08T20:58:26Z" description="Runs Cucumber Features" finished-at="2016-03-08T20:59:06Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<div "featureFile">Feature File: src&#x2F;resources&#x2F;acmeFeatures&#x2F;CountryApi.feature</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "feature">Feature: Get API and perform assertions</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenarioOutline">Scenario Outline: Test all resource</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario Outline: Test all resource</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">When  the user requests resource &quot;&lt;resource&gt;&quot; (passed : 3s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  I validate name assertions &quot;&lt;resource&gt;&quot; &quot;&lt;name1&gt;&quot; &quot;&lt;name2&gt;&quot; (passed : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  I validate alphacode assertions&quot;&lt;resource&gt;&quot; &quot;&lt;alpha2_code1&gt;&quot; &quot;&lt;alpha3_code2&gt;&quot; (passed : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  I validate message assertions &quot;&lt;resource&gt;&quot; &quot;&lt;message1&gt;&quot; &quot;&lt;message2&gt;&quot; (passed : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenarioOutline">Scenario Outline: Positive test IsoCode resource</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario Outline: Positive test IsoCode resource</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">When  the user requests resource &quot;&#x2F;country&#x2F;get&#x2F;all&quot; (passed : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  I validate name assertions &quot;&#x2F;country&#x2F;get&#x2F;all&quot; &quot;Afghanistan&quot; &quot;Nepal&quot; (passed : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  I validate alphacode assertions&quot;&#x2F;country&#x2F;get&#x2F;all&quot; &quot;NL&quot; &quot;ZWE&quot; (passed : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  I validate message assertions &quot;&#x2F;country&#x2F;get&#x2F;all&quot; &quot;More webservices are available at http:&#x2F;&#x2F;www.groupkt.com&#x2F;post&#x2F;f2129b88&#x2F;services.htm&quot; &quot;Total [249] records found.&quot; (passed : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario Outline: Positive test IsoCode resource</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">When  the user requests resource &quot;&lt;resource&gt;&quot; (passed : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  I validate ISO name assertions &quot;&lt;resource&gt;&quot; &quot;&lt;name1&gt;&quot; (passed : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  I validate ISO alphacode assertions &quot;&lt;resource&gt;&quot; &quot;&lt;alpha2_code1&gt;&quot; &quot;&lt;alpha3_code2&gt;&quot; (passed : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  I validate ISO message assertions &quot;&lt;resource&gt;&quot; &quot;&lt;message1&gt;&quot; (passed : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenarioOutline">Scenario Outline: Search http search with text method</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario Outline: Search http search with text method</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">When  the user requests resource &quot;&#x2F;country&#x2F;get&#x2F;iso2code&#x2F;IN&quot; (passed : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  I validate ISO name assertions &quot;&#x2F;country&#x2F;get&#x2F;iso2code&#x2F;IN&quot; &quot;India&quot; (passed : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  I validate ISO alphacode assertions &quot;&#x2F;country&#x2F;get&#x2F;iso2code&#x2F;IN&quot; &quot;IN&quot; &quot;IND&quot; (passed : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  I validate ISO message assertions &quot;&#x2F;country&#x2F;get&#x2F;iso2code&#x2F;IN&quot; &quot;Country found matching code [IN].&quot; (passed : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario Outline: Search http search with text method</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">When  the user requests resource &quot;&#x2F;country&#x2F;get&#x2F;iso3code&#x2F;IND&quot; (passed : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  I validate ISO name assertions &quot;&#x2F;country&#x2F;get&#x2F;iso3code&#x2F;IND&quot; &quot;India&quot; (passed : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  I validate ISO alphacode assertions &quot;&#x2F;country&#x2F;get&#x2F;iso3code&#x2F;IND&quot; &quot;IN&quot; &quot;IND&quot; (passed : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  I validate ISO message assertions &quot;&#x2F;country&#x2F;get&#x2F;iso3code&#x2F;IND&quot; &quot;Country found matching code [IND].&quot; (passed : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenarioOutline">Scenario Outline: Negative test For IsoCode and Search resource for error response</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario Outline: Negative test For IsoCode and Search resource for error response</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">When  the user requests resource &quot;&lt;resource&gt;&quot; (passed : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  I validate name assertions &quot;&lt;resource&gt;&quot; &quot;&lt;name1&gt;&quot; &quot;&lt;name2&gt;&quot; (passed : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario Outline: Negative test For IsoCode and Search resource for error response</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  I validate alphacode assertions&quot;&lt;resource&gt;&quot; &quot;&lt;alpha2_code1&gt;&quot; &quot;&lt;alpha3_code2&gt;&quot; (passed : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  I validate ISO message assertions &quot;&lt;resource&gt;&quot; &quot;&lt;message1&gt;&quot; (passed : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario Outline: Negative test For IsoCode and Search resource for error response</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">When  the user requests resource &quot;&#x2F;country&#x2F;search?text=un&quot; (passed : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  I validate name assertions &quot;&#x2F;country&#x2F;search?text=un&quot; &quot;Brunei Darussalam&quot; &quot;United States of America&quot; (passed : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario Outline: Negative test For IsoCode and Search resource for error response</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  I validate alphacode assertions&quot;&#x2F;country&#x2F;search?text=un&quot; &quot;WF&quot; &quot;REU&quot; (passed : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  I validate ISO message assertions &quot;&#x2F;country&#x2F;search?text=un&quot; &quot;Total [12] records found.&quot; (passed : 1s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- run_cukes -->
+      </class> <!-- hotelsApp.com.assesment.acmeCountryCucumberApiTest.CountryApiRunnerTest -->
+    </test> <!-- Hotel_Expedia_Country_Api -->
+    <test name="Selenium_Website_Test" duration-ms="40812" started-at="2016-03-08T20:58:26Z" finished-at="2016-03-08T20:59:07Z">
+      <class name="MyFirstTest">
+        <test-method status="PASS" signature="setupTimer()[pri:0, instance:MyFirstTest@4de8b406]" name="setupTimer" is-config="true" duration-ms="5" started-at="2016-03-08T20:58:26Z" finished-at="2016-03-08T20:58:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTimer -->
+        <test-method status="PASS" signature="MyFirstTestMethod()[pri:0, instance:MyFirstTest@4de8b406]" name="MyFirstTestMethod" duration-ms="39873" started-at="2016-03-08T20:58:26Z" finished-at="2016-03-08T20:59:06Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Inputted: Selenium WebDriver]]>
+            </line>
+            <line>
+              <![CDATA[First Test Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- MyFirstTestMethod -->
+        <test-method status="PASS" signature="printTimer()[pri:0, instance:MyFirstTest@4de8b406]" name="printTimer" is-config="true" duration-ms="0" started-at="2016-03-08T20:59:07Z" finished-at="2016-03-08T20:59:07Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Total time 40752 in seconds]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- printTimer -->
+      </class> <!-- hotelsApp.com.assesment.scripts.seleniumWebsiteTest.MyFirstTest -->
+      <class name="MySecondTest">
+        <test-method status="PASS" signature="setupTimer()[pri:0, instance:MySecondTest@3c756e4d]" name="setupTimer" is-config="true" duration-ms="1" started-at="2016-03-08T20:58:26Z" finished-at="2016-03-08T20:58:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTimer -->
+        <test-method status="PASS" signature="MySecondTestMethod()[pri:0, instance:MySecondTest@3c756e4d]" name="MySecondTestMethod" duration-ms="26710" started-at="2016-03-08T20:58:26Z" finished-at="2016-03-08T20:58:53Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Inputted: Selenium WebDriver]]>
+            </line>
+            <line>
+              <![CDATA[Second Test Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- MySecondTestMethod -->
+        <test-method status="PASS" signature="printTimer()[pri:0, instance:MySecondTest@3c756e4d]" name="printTimer" is-config="true" duration-ms="1" started-at="2016-03-08T20:58:55Z" finished-at="2016-03-08T20:58:55Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Total time 29264 in seconds]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- printTimer -->
+      </class> <!-- hotelsApp.com.assesment.scripts.seleniumWebsiteTest.MySecondTest -->
+    </test> <!-- Selenium_Website_Test -->
+  </suite> <!-- SuiteOne -->
+</testng-results>

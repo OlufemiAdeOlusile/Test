@@ -1,0 +1,133 @@
+<html>
+<head>
+<title>TestNG:  Hotel_Expedia_Country_Api</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Hotel_Expedia_Country_Api</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Mar 08 20:58:26 GMT 2016</td>
+</tr>
+<tr><td>Total time:</td><td>40 seconds (40576 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='hotels.com.assesment.acmeCountryCucumberApiTest.CountryApiRunnerTest.run_cukes()'><b>run_cukes</b><br>Test class: hotels.com.assesment.acmeCountryCucumberApiTest.CountryApiRunnerTest<br>Test method: Runs Cucumber Features<br/>
+<a href="#Output-1998131716" onClick='toggleBox("Output-1998131716", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1998131716" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1998131716">
+<div "featureFile">Feature File: src&#x2F;resources&#x2F;acmeFeatures&#x2F;CountryApi.feature</div><br/>
+<div "feature">Feature: Get API and perform assertions</div><br/>
+<div "scenarioOutline">Scenario Outline: Test all resource</div><br/>
+<div "scenario">Scenario Outline: Test all resource</div><br/>
+<div "result">When  the user requests resource &quot;&lt;resource&gt;&quot; (passed : 3s)</div><br/>
+<div "result">Then  I validate name assertions &quot;&lt;resource&gt;&quot; &quot;&lt;name1&gt;&quot; &quot;&lt;name2&gt;&quot; (passed : 1s)</div><br/>
+<div "result">And  I validate alphacode assertions&quot;&lt;resource&gt;&quot; &quot;&lt;alpha2_code1&gt;&quot; &quot;&lt;alpha3_code2&gt;&quot; (passed : 1s)</div><br/>
+<div "result">And  I validate message assertions &quot;&lt;resource&gt;&quot; &quot;&lt;message1&gt;&quot; &quot;&lt;message2&gt;&quot; (passed : 1s)</div><br/>
+<div "scenarioOutline">Scenario Outline: Positive test IsoCode resource</div><br/>
+<div "scenario">Scenario Outline: Positive test IsoCode resource</div><br/>
+<div "result">When  the user requests resource &quot;&#x2F;country&#x2F;get&#x2F;all&quot; (passed : 1s)</div><br/>
+<div "result">Then  I validate name assertions &quot;&#x2F;country&#x2F;get&#x2F;all&quot; &quot;Afghanistan&quot; &quot;Nepal&quot; (passed : 1s)</div><br/>
+<div "result">And  I validate alphacode assertions&quot;&#x2F;country&#x2F;get&#x2F;all&quot; &quot;NL&quot; &quot;ZWE&quot; (passed : 1s)</div><br/>
+<div "result">And  I validate message assertions &quot;&#x2F;country&#x2F;get&#x2F;all&quot; &quot;More webservices are available at http:&#x2F;&#x2F;www.groupkt.com&#x2F;post&#x2F;f2129b88&#x2F;services.htm&quot; &quot;Total [249] records found.&quot; (passed : 1s)</div><br/>
+<div "scenario">Scenario Outline: Positive test IsoCode resource</div><br/>
+<div "result">When  the user requests resource &quot;&lt;resource&gt;&quot; (passed : 1s)</div><br/>
+<div "result">Then  I validate ISO name assertions &quot;&lt;resource&gt;&quot; &quot;&lt;name1&gt;&quot; (passed : 1s)</div><br/>
+<div "result">And  I validate ISO alphacode assertions &quot;&lt;resource&gt;&quot; &quot;&lt;alpha2_code1&gt;&quot; &quot;&lt;alpha3_code2&gt;&quot; (passed : 1s)</div><br/>
+<div "result">And  I validate ISO message assertions &quot;&lt;resource&gt;&quot; &quot;&lt;message1&gt;&quot; (passed : 1s)</div><br/>
+<div "scenarioOutline">Scenario Outline: Search http search with text method</div><br/>
+<div "scenario">Scenario Outline: Search http search with text method</div><br/>
+<div "result">When  the user requests resource &quot;&#x2F;country&#x2F;get&#x2F;iso2code&#x2F;IN&quot; (passed : 1s)</div><br/>
+<div "result">Then  I validate ISO name assertions &quot;&#x2F;country&#x2F;get&#x2F;iso2code&#x2F;IN&quot; &quot;India&quot; (passed : 1s)</div><br/>
+<div "result">And  I validate ISO alphacode assertions &quot;&#x2F;country&#x2F;get&#x2F;iso2code&#x2F;IN&quot; &quot;IN&quot; &quot;IND&quot; (passed : 1s)</div><br/>
+<div "result">And  I validate ISO message assertions &quot;&#x2F;country&#x2F;get&#x2F;iso2code&#x2F;IN&quot; &quot;Country found matching code [IN].&quot; (passed : 1s)</div><br/>
+<div "scenario">Scenario Outline: Search http search with text method</div><br/>
+<div "result">When  the user requests resource &quot;&#x2F;country&#x2F;get&#x2F;iso3code&#x2F;IND&quot; (passed : 1s)</div><br/>
+<div "result">Then  I validate ISO name assertions &quot;&#x2F;country&#x2F;get&#x2F;iso3code&#x2F;IND&quot; &quot;India&quot; (passed : 1s)</div><br/>
+<div "result">And  I validate ISO alphacode assertions &quot;&#x2F;country&#x2F;get&#x2F;iso3code&#x2F;IND&quot; &quot;IN&quot; &quot;IND&quot; (passed : 1s)</div><br/>
+<div "result">And  I validate ISO message assertions &quot;&#x2F;country&#x2F;get&#x2F;iso3code&#x2F;IND&quot; &quot;Country found matching code [IND].&quot; (passed : 1s)</div><br/>
+<div "scenarioOutline">Scenario Outline: Negative test For IsoCode and Search resource for error response</div><br/>
+<div "scenario">Scenario Outline: Negative test For IsoCode and Search resource for error response</div><br/>
+<div "result">When  the user requests resource &quot;&lt;resource&gt;&quot; (passed : 1s)</div><br/>
+<div "result">Then  I validate name assertions &quot;&lt;resource&gt;&quot; &quot;&lt;name1&gt;&quot; &quot;&lt;name2&gt;&quot; (passed : 1s)</div><br/>
+<div "scenario">Scenario Outline: Negative test For IsoCode and Search resource for error response</div><br/>
+<div "result">And  I validate alphacode assertions&quot;&lt;resource&gt;&quot; &quot;&lt;alpha2_code1&gt;&quot; &quot;&lt;alpha3_code2&gt;&quot; (passed : 1s)</div><br/>
+<div "result">And  I validate ISO message assertions &quot;&lt;resource&gt;&quot; &quot;&lt;message1&gt;&quot; (passed : 1s)</div><br/>
+<div "scenario">Scenario Outline: Negative test For IsoCode and Search resource for error response</div><br/>
+<div "result">When  the user requests resource &quot;&#x2F;country&#x2F;search?text=un&quot; (passed : 1s)</div><br/>
+<div "result">Then  I validate name assertions &quot;&#x2F;country&#x2F;search?text=un&quot; &quot;Brunei Darussalam&quot; &quot;United States of America&quot; (passed : 1s)</div><br/>
+<div "scenario">Scenario Outline: Negative test For IsoCode and Search resource for error response</div><br/>
+<div "result">And  I validate alphacode assertions&quot;&#x2F;country&#x2F;search?text=un&quot; &quot;WF&quot; &quot;REU&quot; (passed : 1s)</div><br/>
+<div "result">And  I validate ISO message assertions &quot;&#x2F;country&#x2F;search?text=un&quot; &quot;Total [12] records found.&quot; (passed : 1s)</div><br/>
+</div>
+</td>
+<td></td>
+<td>40</td>
+<td>hotels.com.assesment.acmeCountryCucumberApiTest.CountryApiRunnerTest@ae45eb6</td></tr>
+</table><p>
+</body>
+</html>
