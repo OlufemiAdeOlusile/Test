@@ -33,6 +33,7 @@ public class BrowserSetup {
             File pathToBinary = new File(MAC_OS_FIREFOX_BIN);
             FirefoxBinary ffBinary = new FirefoxBinary(pathToBinary);
             FirefoxProfile firefoxProfile = new FirefoxProfile();
+
             WebDriver driver = new FirefoxDriver(ffBinary, firefoxProfile);
             driver.manage().window().maximize();
 
